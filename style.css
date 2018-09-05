@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 234, 252);
+}
+
+.row {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    align-content: center;
+}
+
+.header, .image, .button {
+    width: 100%;
+    text-align: center;
+}
+
+.header, .btn {
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+
+.header {
+    font-size: 3rem;
+    color: rgba(15, 162, 207, 0.8);
+}
+
+.image {
+    height: 20rem;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.btn {
+    background-color: rgb(15, 162, 207);
+    border: 0px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    transition: all 0.6s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
